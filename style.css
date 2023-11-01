@@ -1,0 +1,527 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+.con {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0px 32px;
+}
+
+nav {
+  width: 100%;
+  background-image: url("	https://mobirise.com/extensions/glassm5/photo/assets/images/background4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+nav .ndiv {
+  width: 100%;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+nav .ndiv .nd1 {
+  width: 50%;
+  height: 100px;
+  text-align: center;
+}
+nav .ndiv .nd1 p {
+  font-size: 30px;
+}
+nav .ndiv .nd1 h1 {
+  font-size: 28px;
+}
+nav .ndiv .nd2 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+nav .ndiv .nd2 div {
+  width: 32%;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50px;
+  padding: 32px;
+}
+nav .ndiv .nd2 div h1 {
+  font-size: 60px;
+}
+nav .ndiv .nd2 div h2 {
+  font-size: 30px;
+  margin-top: 32px;
+}
+nav .ndiv .nd2 div p {
+  margin-top: 32px;
+}
+nav .ndiv .nd2 div a {
+  display: inline-block;
+  width: 30%;
+  height: 30px;
+  margin-top: 32px;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 50px;
+  background-color: rgb(246, 31, 196);
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+nav .ndiv .nd2 div a:hover {
+  background-color: rgb(230, 223, 14);
+  color: black;
+  transform: scale(1.3);
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  nav .ndiv {
+    height: 1400px;
+  }
+  nav .ndiv .nd1 {
+    width: 90%;
+  }
+  nav .ndiv .nd2 {
+    height: 1224px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  nav .ndiv .nd2 div {
+    width: 70%;
+  }
+}
+header {
+  width: 100%;
+  background-image: url("	https://mobirise.com/extensions/glassm5/photo/assets/images/background1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+header .hediv {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .hediv .hdiv {
+  width: 1000px;
+  height: 700px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header .hediv .hdiv p {
+  font-size: 30px;
+}
+header .hediv .hdiv .hd1 {
+  width: 95%;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4%;
+}
+header .hediv .hdiv .hd1 input {
+  width: 48%;
+  height: 40px;
+  opacity: 0.8;
+  padding-left: 10px;
+  border-radius: 15px;
+}
+header .hediv .hdiv .hd2 {
+  width: 95%;
+  height: 400px;
+}
+header .hediv .hdiv .hd2 textarea {
+  width: 100%;
+  height: 330px;
+  opacity: 0.8;
+  padding: 10px;
+  border-radius: 15px;
+}
+header .hediv .hdiv .hd2 a {
+  display: block;
+  height: 30px;
+  margin-top: 32px;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 50px;
+  background-color: rgb(246, 31, 196);
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+header .hediv .hdiv .hd2 a:hover {
+  background-color: rgb(230, 223, 14);
+  color: black;
+  transform: scale(1.03);
+}
+
+main {
+  width: 100%;
+  height: 700px;
+  background-image: url("	https://mobirise.com/extensions/glassm5/photo/assets/images/background5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .mdiv {
+  width: 100%;
+  height: 650px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+main .mdiv .md1 {
+  width: 35%;
+  height: 500px;
+  border-radius: 15px;
+}
+main .mdiv .md1 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px;
+}
+main .mdiv .md2 {
+  width: 62%;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 15px;
+}
+main .mdiv .md2 p {
+  font-size: 24px;
+}
+main .mdiv .md2 h5 {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  main {
+    height: 1000px;
+  }
+  main .mdiv {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 1000px;
+  }
+  main .mdiv .md1 {
+    width: 60%;
+    height: 400px;
+  }
+  main .mdiv .md2 {
+    width: 80%;
+    height: 280px;
+  }
+}
+section {
+  width: 100%;
+  height: 650px;
+  background-color: #f2f6ff;
+}
+section .sdiv {
+  width: 100%;
+  height: 750px;
+  display: flex;
+  justify-content: space-between;
+}
+section .sdiv .sd1 {
+  width: 47%;
+  height: 500px;
+  border-radius: 15px;
+  position: relative;
+}
+section .sdiv .sd1 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px;
+}
+section .sdiv .sd1 .sd11 {
+  position: absolute;
+  right: -50px;
+  bottom: -30px;
+  width: 200px;
+  height: 200px;
+  background-color: #45b3df;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+section .sdiv .sd1 .sd11 div {
+  width: 90%;
+  height: 90%;
+  border: dashed 2px white;
+  border-radius: 15px;
+  padding: 20px;
+  color: white;
+}
+section .sdiv .sd1 .sd11 div h2 {
+  margin-top: 20px;
+  font-size: 16px;
+}
+section .sdiv .sd2 {
+  width: 47%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+section .sdiv .sd2 h1 {
+  font-size: 50px;
+}
+section .sdiv .sd2 p {
+  font-size: 18px;
+}
+section .sdiv .sd2 div {
+  width: 125px;
+  height: 40px;
+  background-color: #ffc85b;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+}
+section .sdiv .sd2 div a {
+  width: 90%;
+  height: 90%;
+  display: block;
+  border: dashed 2px white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+section .sdiv .sd2 div:hover {
+  background-color: #45b3df;
+}
+
+aside {
+  width: 100%;
+}
+aside .sdiv {
+  width: 100%;
+  height: 750px;
+  display: flex;
+  justify-content: space-between;
+}
+aside .sdiv .sd1 {
+  width: 30%;
+  height: 500px;
+  border-radius: 15px;
+  position: relative;
+}
+aside .sdiv .sd1 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px;
+}
+aside .sdiv .sd1 .sd11 {
+  position: absolute;
+  right: -65%;
+  bottom: -50px;
+  width: 100%;
+  height: 100%;
+  background-color: #45b3df;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+aside .sdiv .sd1 .sd11 div {
+  width: 90%;
+  height: 90%;
+  border: dashed 2px white;
+  border-radius: 15px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+aside .sdiv .sd1 .sd11 div h1 {
+  margin-top: 20px;
+  font-size: 30px;
+}
+aside .sdiv .sd1 .sd11 div input {
+  width: 90%;
+  height: 30px;
+  border-radius: 15px;
+  padding-left: 10px;
+}
+aside .sdiv .sd1 .sd11 div textarea {
+  width: 90%;
+  height: 100px;
+  border-radius: 15px;
+  padding: 10px;
+}
+aside .sdiv .sd1 .sd11 div a {
+  width: 90%;
+  height: 50px;
+  background-color: #ffc85b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  font-size: 26px;
+}
+aside .sdiv .sd1 .sd11 div a:hover {
+  background-color: transparent;
+}
+aside .sdiv .sd2 {
+  width: 47%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+aside .sdiv .sd2 h1 {
+  font-size: 50px;
+}
+aside .sdiv .sd2 p {
+  font-size: 18px;
+}
+aside .sdiv .sd2 .sd21 {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+aside .sdiv .sd2 .sd21 .sd211 {
+  width: 90%;
+  height: 30px;
+  display: flex;
+  gap: 10px;
+}
+aside .sdiv .sd2 .sd21 .sd211 div {
+  width: 30px;
+  height: 30px;
+  border-radius: 999999px;
+  background-color: #45b3df;
+  text-align: center;
+  color: white;
+  font-size: 26px;
+}
+
+@media screen and (max-width: 1023px) {
+  aside .sdiv {
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+    height: 1200px;
+  }
+  aside .sdiv .sd1 {
+    width: 60%;
+  }
+  aside .sdiv .sd2 {
+    width: 70%;
+  }
+}
+footer {
+  width: 100%;
+}
+footer .sdiv {
+  width: 100%;
+  height: 750px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .sdiv .sd1 {
+  width: 47%;
+  height: 500px;
+  border-radius: 15px;
+  position: relative;
+}
+footer .sdiv .sd1 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px;
+}
+footer .sdiv .sd2 {
+  width: 47%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+footer .sdiv .sd2 h1 {
+  font-size: 50px;
+}
+footer .sdiv .sd2 p {
+  font-size: 18px;
+}
+footer .sdiv .sd2 .sd21 {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .sdiv .sd2 .sd21 .sd211 {
+  width: 90%;
+  height: 30px;
+  display: flex;
+  gap: 20px;
+}
+footer .sdiv .sd2 .sd21 .sd211 div {
+  width: 30px;
+  height: 30px;
+}
+footer .sdiv .sd2 .sd21 .sd211 div img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (max-width: 1023px) {
+  footer .sdiv {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    height: 1200px;
+  }
+  footer .sdiv .sd1 {
+    width: 70%;
+  }
+  footer .sdiv .sd2 {
+    width: 90%;
+  }
+}/*# sourceMappingURL=style.css.map */
